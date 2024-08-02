@@ -1,12 +1,14 @@
 const express = require("express");
 const app = express();
-const router = require("./router/auth-router");
+const authRoute = require("./router/auth-router");
+const contactRoute = require("./router/contact-router");
 const connectDb = require("./utils/db");
 const errorMiddlewares = require("./middlewares/error-middlewares");
 
 app.use(express.json()); // Middleware to parse JSON bodies
 
-app.use("/api/auth", router);
+app.use("/api/auth", authRoute);
+app.use("/api/form", contactRoute);
 
 app.get("/", (req, res) => {
     res.status(200).send("Welcome to MERN");
@@ -31,7 +33,3 @@ connectDb().then(() => {
 }).catch(err => {
     console.error("Failed to connect to database", err);
 });
-
-
-
-

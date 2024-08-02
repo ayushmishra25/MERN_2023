@@ -1,4 +1,4 @@
-const User = require(' ../models/user-model ');
+const User = require("../models/user-model");
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
@@ -13,7 +13,7 @@ const home = async (req, res) => {
 };
 
 // Registration logic
-const register = async (req, res) => {
+const register = async (req, res, next) => {
     try {
         console.log('Request Body:', req.body);
 
@@ -36,9 +36,8 @@ const register = async (req, res) => {
 
         res.status(201).json({ msg: "User created successfully", user: newUser, token, userId: newUser._id.toString() });
     } catch (error) {
-        //console.log('Register Error:', error);
-        //res.status(500).json({ msg: "Internal Server Error" });
-        next(error);
+        console.log('Register Error:', error);
+        next(error); // Use `next` for proper error handling middleware
     }
 };
 
@@ -54,7 +53,7 @@ const login = async (req, res) => {
         if (!userExist) {
             return res.status(400).json({ msg: "User does not exist" });
         }
-         
+
         const isPasswordValid = await bcrypt.compare(password, userExist.password);
 
         if (isPasswordValid) {
@@ -65,7 +64,6 @@ const login = async (req, res) => {
         } else {
             res.status(400).json({ msg: "Invalid credentials" });
         }
-
     } catch (error) {
         console.log('Login Error:', error);
         res.status(500).json({ msg: "Internal Server Error" });
@@ -73,4 +71,3 @@ const login = async (req, res) => {
 };
 
 module.exports = { home, register, login };
-
