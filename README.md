@@ -88,11 +88,11 @@ your-project/
 
 ## API Documentation
 
-# Authentication
+### Authentication
 POST /api/auth/register: Register a new user
 POST /api/auth/login: Authenticate a user and return a token
 
-# User
+### User
 GET /api/users: Get all users
 GET /api/users/:id: Get user by ID
 PUT /api/users/:id: Update user by ID
@@ -119,9 +119,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ##Contact
 
-Name: Ayush Mishra
-Email: ayushmishrarkt2345@gmail.com
-GitHub: ayushmishra25
+<b>Name: Ayush Mishra</b>
+<b>Email: ayushmishrarkt2345@gmail.com</>
+<b>GitHub: ayushmishra25</b>
 
 
 ## javascript
