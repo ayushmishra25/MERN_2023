@@ -20,33 +20,24 @@ Step-by-step instructions on how to set up your development environment.
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/your-project.git
-Navigate to the project directory:
 
-sh
-Copy code
-cd your-project
-Install the dependencies:
+2. Navigate to the project directory:
+   ```sh
+   cd your-project
 
-sh
-Copy code
-npm install
-Set up environment variables:
+3. Install the dependencies:
+   ```sh
+   npm install
 
-Create a .env file in the root directory and add your variables.
-sh
+4. Set up environment variables:
+   Create a .env file in the root directory and add your variables.
+   ```sh
+   touch .env
 
-touch .env
-Example:
-makefile
-Copy code
-PORT=5000
-MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
-Start the development server:
+5. Start the development server:
+   ```sh
+   npm run dev
 
-sh
-Copy code
-npm run dev
 Usage
 Instructions and examples for using your project.
 
