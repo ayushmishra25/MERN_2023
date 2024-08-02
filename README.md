@@ -93,35 +93,37 @@ POST /api/auth/register: Register a new user
 POST /api/auth/login: Authenticate a user and return a token
 
 ### User
-GET /api/users: Get all users
-GET /api/users/:id: Get user by ID
-PUT /api/users/:id: Update user by ID
-DELETE /api/users/:id: Delete user by ID
+1. GET /api/users: Get all users
+2. GET /api/users/:id: Get user by ID
+3. PUT /api/users/:id: Update user by ID
+4. DELETE /api/users/:id: Delete user by ID
 
 ## [Your Resource]
 
-GET /api/[resource]: Get all [resource]
-GET /api/[resource]/:id: Get [resource] by ID
-POST /api/[resource]: Create new [resource]
-PUT /api/[resource]/:id: Update [resource] by ID
-DELETE /api/[resource]/:id: Delete [resource] by ID
+1. GET /api/[resource]: Get all [resource]
+2. GET /api/[resource]/:id: Get [resource] by ID
+3. POST /api/[resource]: Create new [resource]
+4. PUT /api/[resource]/:id: Update [resource] by ID
+5. DELETE /api/[resource]/:id: Delete [resource] by ID
 
 ## Contributing
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
-License
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/your-feature).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add some feature').
+5. Push to the branch (git push origin feature/your-feature).
+6. Open a pull request.
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contact
+## Contact
 
-<b>Name: Ayush Mishra</b>
-<b>Email: ayushmishrarkt2345@gmail.com</>
-<b>GitHub: ayushmishra25</b>
+Name: Ayush Mishra
+Email: ayushmishrarkt2345@gmail.com
+GitHub: ayushmishra25
 
 
 ## javascript
@@ -136,7 +138,7 @@ You can save this content as a `README.md` file in the root directory of your ME
 
 
 
-Chat
+
 
  
  
