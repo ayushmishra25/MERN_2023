@@ -121,9 +121,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-#### Name: Your Name
-#### Email: your.email@example.com
-#### GitHub: your-username
+#### Name: Ayush Mishra
+#### Email: ayushmishrarkt2345@gmail.com
+#### GitHub: ayushmishra25
 
 ## javascript
 
