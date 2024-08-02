@@ -121,11 +121,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-{
-  "Name": "Your Name",
-  "Email": "your.email@example.com",
-  "GitHub": "your-username"
-}
+#### Name: Your Name
+#### Email: your.email@example.com
+#### GitHub: your-username
 
 ## javascript
 
