@@ -45,7 +45,7 @@ Instructions and examples for using your project.
    ```sh
    npm run dev
 
-2. Open your browser and navigate to http://localhost:3000.
+2. Open your browser and navigate to http://localhost:5000.
 
 ## Features
 
@@ -121,10 +121,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Name: Ayush Mishra
-Email: ayushmishrarkt2345@gmail.com
-GitHub: ayushmishra25
-
+{
+  "Name": "Your Name",
+  "Email": "your.email@example.com",
+  "GitHub": "your-username"
+}
 
 ## javascript
 
