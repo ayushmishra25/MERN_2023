@@ -68,23 +68,23 @@ bcrypt for password hashing
 ## Project Structure
 
 ###### your-project/
-############ ├── backend/
-############# │   ├── controllers/
-############# │   ├── models/
-############# │   ├── routes/
-############# │   ├── middleware/
-############# │   ├── server.js
-############# │   ├── config/
-############ ├── frontend/
-############# │   ├── src/
-############# │   │   ├── components/
-############# │   │   ├── pages/
-############# │   │   ├── App.js
-############# │   │   ├── index.js
-############# │   ├── public/
-############ ├── .env
-############ ├── package.json
-############ ├── README.md
+##### ├── backend/
+###### │   ├── controllers/
+###### │   ├── models/
+###### │   ├── routes/
+###### │   ├── middleware/
+###### │   ├── server.js
+###### │   ├── config/
+##### ├── frontend/
+###### │   ├── src/
+###### │   │   ├── components/
+###### │   │   ├── pages/
+###### │   │   ├── App.js
+###### │   │   ├── index.js
+###### │   ├── public/
+##### ├── .env
+##### ├── package.json
+##### ├── README.md
 
 ## API Documentation
 
