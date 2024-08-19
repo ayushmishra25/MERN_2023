@@ -1,7 +1,32 @@
-# MERN Stack Project
+# Placement-Preperation-Website 
 
 ## Description
-A MERN stack application for managing [resource]. It includes user authentication, CRUD operations, and a responsive design.
+This is a full-stack web application designed to help users prepare for job placements. The website is built using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js.
+
+### Key Features:
+
+#### Home Page: An introductory page that provides an overview of the website and its purpose.
+#### Courses Page: A comprehensive list of courses and resources to help users prepare for placements.
+#### Services Page: Details about the various services offered, including resume building, interview tips, and more.
+#### Login and Register Pages: Secure authentication using JWT (JSON Web Tokens) to ensure user data privacy and protection.
+#### Responsive Design: The website is designed to work seamlessly across different devices and screen sizes.
+
+### Frontend:
+
+• Developed using React.js to create an interactive and dynamic user interface.
+• HTML and CSS are used for structuring and styling the pages.
+• JavaScript is used to manage user interactions and handle frontend logic.
+
+### Backend:
+
+• Node.js and Express.js are used for handling server-side logic and API requests.
+• MongoDB is the database used to store user data, course details, and other relevant information.
+• JWT (JSON Web Tokens) is used for secure user authentication and session management.
+
+### Additional Features:
+
+• YouTube Integration: The website includes relevant YouTube videos to aid in placement preparation.
+• Latest Updates: Stay informed with the latest updates on placements, company news, and more.
 
 ## Table of Contents
 - [Installation](#installation)
