@@ -19,11 +19,11 @@ Step-by-step instructions on how to set up your development environment.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/ayushmishra25/Placement-Preperation-Website.git
 
 2. Navigate to the project directory:
    ```sh
-   cd your-project
+   cd Placement-Preperation-Website
 
 3. Install the dependencies:
    ```sh
@@ -114,10 +114,6 @@ POST /api/auth/login: Authenticate a user and return a token
 4. Commit your changes (git commit -m 'Add some feature').
 5. Push to the branch (git push origin feature/your-feature).
 6. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Contact
 
