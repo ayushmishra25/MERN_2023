@@ -19,9 +19,9 @@ This is a full-stack web application designed to help users prepare for job plac
 
 ### Backend:
 
-• Node.js and Express.js are used for handling server-side logic and API requests.
-• MongoDB is the database used to store user data, course details, and other relevant information.
-• JWT (JSON Web Tokens) is used for secure user authentication and session management.
+* Node.js and Express.js are used for handling server-side logic and API requests.
+* MongoDB is the database used to store user data, course details, and other relevant information.
+* JWT (JSON Web Tokens) is used for secure user authentication and session management.
 
 ### Additional Features:
 
