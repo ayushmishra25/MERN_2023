@@ -13,9 +13,9 @@ This is a full-stack web application designed to help users prepare for job plac
 
 ### Frontend:
 
-• Developed using React.js to create an interactive and dynamic user interface.
-• HTML and CSS are used for structuring and styling the pages.
-• JavaScript is used to manage user interactions and handle frontend logic.
+* Developed using React.js to create an interactive and dynamic user interface.
+* HTML and CSS are used for structuring and styling the pages.
+* JavaScript is used to manage user interactions and handle frontend logic.
 
 ### Backend:
 
@@ -25,8 +25,8 @@ This is a full-stack web application designed to help users prepare for job plac
 
 ### Additional Features:
 
-• YouTube Integration: The website includes relevant YouTube videos to aid in placement preparation.
-• Latest Updates: Stay informed with the latest updates on placements, company news, and more.
+* YouTube Integration: The website includes relevant YouTube videos to aid in placement preparation.
+* Latest Updates: Stay informed with the latest updates on placements, company news, and more.
 
 ## Table of Contents
 - [Installation](#installation)
