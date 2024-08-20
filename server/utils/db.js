@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const URI = process.env.MONGODB_URI;
 const connectDb = async () => {
     try {
-        await mongoose.connect("mongodb://localhost:27017/yourdbname", {
+        await mongoose.connect("mongodb://localhost:27017/mern_admin", {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
