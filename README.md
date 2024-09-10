@@ -1,4 +1,5 @@
-# Placement-Preperation-Website 
+# PlacementPathway
+### A Placement-Preperation-Website 
 
 ## Description
 This is a full-stack web application designed to help users prepare for job placements. The website is built using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js.
