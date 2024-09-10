@@ -1,16 +1,20 @@
 const mongoose = require("mongoose");
 
+//const URI = "mongodb://127.0.0.1:27017/mern_admin";
+
+//mongoose.connect(URI);
+
 const URI = process.env.MONGODB_URI;
-const connectDb = async () => {
-    try {
-        await mongoose.connect("mongodb://localhost:27017/mern_admin", {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
-        console.log("Database connected successfully");
-    } catch (error) {
-        console.error("Database connection failed", error);
-        throw error;
+
+
+const connectDb = async() => {
+    try{
+        await mongoose.connect(URI);
+        console.log("Connection successful to database");
+    }
+    catch (error){
+        console.error("databse connection failed");
+        process.exit(0);
     }
 };
 
